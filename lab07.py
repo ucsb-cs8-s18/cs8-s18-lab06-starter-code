@@ -146,7 +146,7 @@ def indexOfSmallestInt(listOfInts):
 def longestString(listOfStrings):
     """
     return longestString from a list of strings
-    raise ValueError if non empty, not a list, or not a list of ints
+    raise ValueError if non empty, not a list, or not a list of strings
 
     By "longest", we mean a value that is no shorter than any 
     other value in the list
@@ -170,7 +170,7 @@ def longestString(listOfStrings):
 def indexOfShortestString(listOfStrings):
     """
     return index of shortest string from a list of strings
-    raise ValueError if non empty, not a list, or not a list of ints
+    raise ValueError if non empty, not a list, or not a list of strings
 
     By "shortest", we mean a value that is no longer than any other 
     value in the list
