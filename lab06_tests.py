@@ -1,9 +1,10 @@
-#   Starting point for lab07, CMPSC 8, M17
+#   Starting point for lab06, CMPSC 8, S18
+
 import pytest
 
 ##############
 
-from lab07 import isList
+from lab06 import isList
 
 def test_isList_1():
     assert isList([])==True
@@ -25,7 +26,7 @@ def test_isList_6():
 
 ########
 
-from lab07 import largestInt
+from lab06 import largestInt
 
 def test_largestInt_01():
   with pytest.raises(ValueError):
@@ -67,7 +68,7 @@ def test_largestInt_11():
 
 ###############################
 
-from lab07 import indexOfLargestInt
+from lab06 import indexOfLargestInt
 
 def test_indexOfLargestInt_01():
   with pytest.raises(ValueError):
@@ -115,7 +116,7 @@ def test_indexOfLargestInt_12():
 
 ##########################
 
-from lab07 import smallestInt
+from lab06 import smallestInt
 
 
 
@@ -161,7 +162,7 @@ def test_smallestInt_11():
 
 #################################
 
-from lab07 import indexOfSmallestInt
+from lab06 import indexOfSmallestInt
 
 def test_indexOfSmallestInt_01():
   with pytest.raises(ValueError):
@@ -215,7 +216,7 @@ def test_indexOfSmallestInt_14():
 
 ################################
 
-from lab07 import longestString
+from lab06 import longestString
 
 def test_longestString_01():
   with pytest.raises(ValueError):
@@ -262,7 +263,7 @@ def test_longestString_12():
 
 ############
 
-from lab07 import indexOfShortestString
+from lab06 import indexOfShortestString
 
 def test_indexOfShortestString_01():
   with pytest.raises(ValueError):

@@ -1,8 +1,9 @@
-#   Starting point for lab07, CMPSC 8, M17
+#   Starting point for lab06, CMPSC 8, S18
+
 import pytest
 
-# The following function is copied from lab05---as an example of how to
-#  check for type, and because it is generally useful
+# The following function is copied from a previous lab, both as an
+# example of how to check for type, and because it is generally useful
 
 def isList(x):
     """
